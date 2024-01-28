@@ -88,10 +88,6 @@ After over sampling:
     merch_lat - Latitude Location of Merchant
     is_fraud - Fraud Flag <--- Target Class
 
-
-
-* What Processing Tools have you used.  Why?  Add final images from jupyter notebook. Use questions from 3.4 of the [Datasheets For Datasets](https://arxiv.org/abs/1803.09010) paper for a guide.>  
-
 ## Exploratory Data Analysis 
 
 Our EDA strategy involves using Heat Maps which helps us identify patterns and dependencies that might not be immediately apparent through other means, Histplots provide They provide insights into the central tendencies, skewness, and spread of data points, aiding in the identification of potential outliers and the overall shape of the data, and Boxplots highlight key statistical measures and identify outliers. Analyzing the shape of the data ensures a foundational understanding of its characteristics, while diving into information and descriptions enhances our comprehension of the dataset's nature. This comprehensive approach guides subsequent analyses and contributes to a more informed and nuanced model-building process.
@@ -162,9 +158,3 @@ In the readme I completed the project summary, the problem  statement, the updat
 
 To contribute to the project, I primarily worked on the data preprocessing aspects of the project. To do this effectively, I analyzed the issues pertaining to our data, mainly the imbalance between the fraud/non-fraud data instances. After researching the different methods to solve this problem, I was able to determine oversampling to be the most beneficial method to resolve this data imbalance. Following the oversampling, I generated the necessary plots to visualize the data changes and their desired effects on the model. Using the data, I redefined the primary x and y variables as x_resampled and y_resampled and reran our logistic regression and knn models, seeing a noticeable increase in model score, accuracy, etc. Aside from my contributions to the project notebook, I cowrote the dataset and problem statement sections. I researched and wrote up the machine learning approach section, describing the key reasons for using our chosen machine learning models. I then collected and presented our findings, desired future work, and limitations in the conclusion. 
 
- 
-## Submission Format
-1. Python code with markdown documentation, images saved in .jpg or .png format, and README.md as a project report OR
-2. Jupyter notebook (.ipynb) that contains full markdown sections as listed above 
-
-## Now go back and write the summary at the top of the page
